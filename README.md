@@ -29,9 +29,9 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 - [x] Events that trigger workflow
 - [x] Jobs and steps
 - [x] :mag: Demo: Creating a workflow
-- [ ] 🔨 Hands-on: [My first Action workflow](hol/01-My-first-workflow.md)
-- [ ] Advanced [workflow syntax](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)
-- [ ] :coffee: Break
+- [x] 🔨 Hands-on: [My first Action workflow](hol/01-My-first-workflow.md)
+- [x] Advanced [workflow syntax](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)
+- [x] :coffee: Break
 - [ ] GitHub Actions
 - [ ] Types of Actions
 - [ ] 🔨 Hands-on: [My first container Action](hol/02-My-first-action.md)
