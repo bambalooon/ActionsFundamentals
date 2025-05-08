@@ -15,7 +15,4 @@ jobs:
     steps:
       - run: |
         echo "event that triggered the workflow: ${{ github.event_name }}"
-        echo "branch name: ${{ github.ref }} and your repo is ."
-        echo "repo ${{ github.repository }} contains following files:"
-        tree  
-  
+        echo "branch name: ${{ github.ref }} and your repo is ." 
