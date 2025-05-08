@@ -14,5 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        echo "event that triggered the workflow: ${{ github.event_name }}"
-        echo "branch name: ${{ github.ref }} and your repo is ." 
+          echo "event that triggered the workflow: ${{ github.event_name }}"
+          echo "branch name: ${{ github.ref }} and your repo is ."
+          echo "The repository ${{ github.repository }} contains the following files:"
+          tree
