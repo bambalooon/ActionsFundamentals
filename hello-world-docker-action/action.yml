@@ -1,0 +1,18 @@
+name: Hello World!
+description: dupa
+author: me
+
+inputs:
+  who-to-greet: 
+    description: Who to greet?
+    default: world
+
+outputs:
+  time:
+    description: time we've greeted you
+
+runs:
+  using: docker
+  image: Dockerfile
+  env:
+    INPUT_WHO_TO_GREET: ${{ inputs.who-to-greet }}
